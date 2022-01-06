@@ -1,0 +1,55 @@
+.reviews {
+  margin: 50px 0;
+  padding: 50px 0;
+  background-image: linear-gradient(
+      to left bottom,
+      rgba(41, 37, 96, 0.5) 0%,
+      rgba(93, 177, 255, 0.3) 100%
+    ),
+    url("../../images/yellow-black-cyan-wallpaper-wallpaper-2560x1080_14.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+}
+.card {
+  padding: 15px 25px;
+  border: none;
+  box-shadow: -1px 3px 5px #a7a7a7;
+  border-radius: 8px !important;
+  transition: all 0.3s ease;
+}
+.reviews .card:hover {
+  transform: translateY(-20px);
+}
+.reviews .card img {
+  width: 50px !important;
+  border-radius: 50%;
+}
+.testimonial {
+  font-size: 0.9rem;
+  line-height: 1.4rem;
+  font-weight: 500;
+}
+
+.active-star {
+  color: #fbc02d;
+  margin-bottom: 8px;
+}
+
+.active-star:hover {
+  color: #f9a825;
+  cursor: pointer;
+}
+
+.profile {
+  padding-top: 10px;
+}
+
+.name {
+  font-weight: 700;
+}
+
+.designation {
+  font-size: 0.84rem;
+  font-weight: 600;
+}

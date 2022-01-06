@@ -1,0 +1,43 @@
+.hero {
+  background-image: linear-gradient(
+      to right,
+      rgba(41, 37, 96, 0.5) 0%,
+      rgba(93, 177, 255, 0.3) 100%
+    ),
+    url("https://static.vecteezy.com/system/resources/previews/001/309/813/non_2x/top-view-smartphone-mockup-on-a-yellow-background-free-photo.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 60vh;
+  display: flex;
+  align-items: center;
+}
+.hero h6 {
+  font-weight: 600;
+  color: #292560;
+}
+.hero h1 {
+  font-weight: 300;
+  font-size: 52px;
+  color: #fff;
+}
+.hero p {
+  font-size: 18px;
+  font-weight: 400;
+  color: #fff;
+  margin-top: 10px;
+}
+
+@media screen and (max-width: 992px) {
+  .hero {
+    height: auto;
+    padding: 60px 0;
+  }
+  .hero h1 {
+    font-weight: 600;
+    font-size: 36px;
+  }
+  .heroBtn {
+    padding: 15px 30px;
+  }
+}

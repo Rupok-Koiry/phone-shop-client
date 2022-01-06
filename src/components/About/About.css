@@ -1,0 +1,40 @@
+.about {
+  margin: 50px 0;
+  padding: 50px 0;
+  background-color: #f2f2f2;
+}
+.about img {
+  filter: drop-shadow(1.95px 1.95px 2.6px rgb(0, 0, 0));
+}
+.icons-container {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+  padding: 16px 0;
+  margin-top: 5px;
+}
+
+.icons-container .icons {
+  background: #eee;
+  border-radius: 5px;
+  border: 1.6px solid rgba(0, 0, 0, 0.2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  flex: 1 1 170px;
+  padding: 15px 16px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.icons-container .icons i {
+  font-size: 25px;
+  color: #fdb03d;
+}
+
+.icons-container .icons span {
+  font-size: 15px;
+  color: #292560;
+  text-transform: capitalize;
+  font-weight: 500;
+}

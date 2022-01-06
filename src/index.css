@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif !important;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none !important;
+}
+ul {
+  list-style: none;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+.error {
+  color: #ff3333;
+  margin-top: 6px;
+  display: inline-block;
+  font-weight: 500;
+}
+.btn-style {
+  padding: 9px 26px;
+  font-weight: 500;
+  font-size: 15px;
+  color: #fff;
+  text-transform: uppercase;
+  border-radius: 4px;
+  background: #fdb03d;
+  border: none;
+  transition: all 0.3s ease-in-out;
+}
+
+.btn-style:hover {
+  background: #292560;
+  color: #fff;
+  transition: 0.3s ease-out;
+}
+
+.btn-style-secondary {
+  background: #292560;
+  color: #fff;
+  padding: 15px 28px;
+  font-size: 14px;
+  transition: 0.3s ease-out;
+}
+
+.btn-style-secondary:hover {
+  background: #fdb03d;
+  color: #fff;
+  transition: 0.3s ease-out;
+}
+
+.btn-style-primary {
+  color: #292560;
+  font-size: 15px;
+  border: 2px solid transparent;
+}
+
+.btn-style-primary:hover {
+  color: #fdb03d;
+  background: transparent;
+  border: 2px solid #fdb03d;
+}
+.section-heading-sm {
+  font-size: 42px !important;
+  text-transform: capitalize;
+  font-weight: 500;
+}
+.section-heading-sm::after {
+  content: "";
+  display: block;
+  height: 2px;
+  width: 150px;
+  background: #292560;
+  margin: 12px 0 35px;
+}
+
+.section-heading {
+  font-size: 42px;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: #292560;
+  transition: all 0.2s;
+  letter-spacing: 2px;
+  text-align: center;
+  margin-bottom: 42px;
+}
+@media screen and (max-width: 768px) {
+  .section-heading {
+    font-size: 36px;
+  }
+  .section-heading-sm {
+    font-size: 28px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .section-heading {
+    font-size: 30px;
+  }
+  .section-heading-sm {
+    font-size: 26px;
+  }
+}
+.loader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.loader div {
+  width: 6rem;
+  height: 6rem;
+  border-color: #292560;
+  border-right-color: transparent;
+  margin: 15px 0;
+}
